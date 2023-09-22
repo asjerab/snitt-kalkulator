@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiv.css">
+</head>
+
+<body>
+
+
+
+    <!--=======================HEADER=======================-->
+
+    <div class="header">
+        <h1>Snittkalkulator</h1>
+    </div>
+    <!--=======================MAIN CONTENT=======================-->
+
+    <div class="main_content_flex">
+        <div class="main_content_pack">
+            <div id="demo" class="subject_one show">
+                <h2>Engelsk</h2>
+                <input oninput="sjekkTall(this)" type="number" value="" id="engelsk" min="1" max="6">
+                <!-- <button onclick="myFunction()" id="remove_button">X</button> -->
+            </div>
+            <div id="demo2" class="subject_one show">
+                <h2>Naturfag</h2>
+                <input  oninput="sjekkTall(this)" type="number" id="naturfag" min="1" max="6">
+                <!-- <button onclick="myFunction2()" id="remove_button">X</button> -->
+            </div>
+            <div id="demo3" class="subject_one show">
+                <h2>Matte</h2>
+                <input oninput="sjekkTall(this)" type="number" id="matte" min="1" max="6">
+                <!-- <button onclick="myFunction3()" id="remove_button">X</button> -->
+            </div>
+            <div id="demo4" class="subject_one show">
+                <h2>KRLE</h2>
+                <input oninput="sjekkTall(this)" type="number" id="krle" min="1" max="6">
+                <!-- <button onclick="myFunction4()" id="remove_button">X</button> -->
+            </div>
+            <div id="demo5" class="subject_one show">
+                <h2>Kroppsoving</h2>
+                <input oninput="sjekkTall(this)" type="number" id="kroppsoving" min="1" max="6">
+                <!-- <button onclick="myFunction5()" id="remove_button">X</button> -->
+            </div>
+            <div id="demo6" class="subject_six how">
+                <h2>Samfunnsfag</h2>
+                <input oninput="sjekkTall(this)" type="number" id="samfunnsfag" min="1" max="6">
+                <!-- <button onclick="myFunction6()" id="remove_button">X</button> -->
+            </div>
+            <div id="demo7" class="subject_seven show">
+                <h2>Norsk</h2>
+                <input oninput="sjekkTall(this)" type="number" id="norsk" min="1" max="6">
+                <!-- <button onclick="myFunction7()" id="remove_button">X</button> -->
+            </div>
+
+            <br>
+            <br> 
+
+
+            <div id="demo8" class="subject_eight show">
+                <h2>Spansk</h2>
+                <input oninput="sjekkTall(this)" type="number" value="" id="spansk" min="1" max="6">
+                <!-- <button onclick="myFunction8()" id="remove_button">X</button> -->
+            </div>
+            <div id="demo9" class="subject_nine show">
+                <h2>tysk</h2>
+                <input oninput="sjekkTall(this)" type="number" id="tysk" min="1" max="6">
+                <!-- <button onclick="myFunction9()" id="remove_button">X</button> -->
+            </div>
+
+            <div id="demo10" class="subject_ten show">
+                <h2>Fransk</h2>
+                <input oninput="sjekkTall(this)" type="number" id="fransk" min="1" max="6">
+                <!-- <button onclick="myFunction10()" id="remove_button">X</button> -->
+            </div>
+            <div id="demo11" class="subject_eleven show">
+                <h2>Eng. Fordypning</h2>
+                <input oninput="sjekkTall(this)" type="number" id="engelskFordypning" min="1" max="6">
+                <!-- <button onclick="myFunction11()" id="remove_button">X</button> -->
+            </div>
+            <br>
+            <br>
+            <div id="demo12" class="subject_twelve show">
+                <h2>Programmering</h2>
+                <input oninput="sjekkTall(this)" type="number" id="programmering" min="1" max="6">
+                <!-- <button onclick="myFunction12()" id="remove_button">X</button> -->
+            </div>
+            <div id="demo13" class="subject_thirteen show">
+                <h2>Fysisk Aktivitet</h2>
+                <input oninput="sjekkTall(this)" type="number" id="fysiskAktivitet" min="1" max="6">
+                <!-- <button onclick="myFunction13()" id="remove_button">X</button> -->
+            </div>
+            <div id="demo14" class="subject_fourteen show">
+                <h2>Design & Redesign</h2>
+                <input oninput="sjekkTall(this)" type="number" id="designRedesign" min="1" max="6">
+                <!-- <button onclick="myFunction14()" id="remove_button">X</button> -->
+            </div>
+            <div id="demo15" class="subject_fifteen show">
+                <h2>Friluftsliv</h2>
+                <input oninput="sjekkTall(this)" type="number" id="friluftsliv" min="1" max="6">
+                <!-- <button onclick="myFunction15()" id="remove_button">X</button> -->
+            </div>
+
+            <!-- <buttonn id="legg_til_fag">Legg til fag </button>
+
+                <div id="subject_list" class="subject_list">
+                    <button>Engelsk</button>
+                    <button>Naturfag</button>
+                    <button>Norsk</button>
+                    <button>Samfunnsfag</button>
+                    <button>Matte</button>
+                    <button>Kroppsøving</button>
+                    <button>KRLE</button>
+                    <button>Programmering</button>
+                    <button>fysiskAktivitet</button>
+                    <button>designRedesign</button>
+                    <button>Friluftsliv</button>
+                    <button>spansk</button>
+                    <button>Tysk</button>
+                    <button>fransk</button>
+                    <button>engelskFordypning</button>
+                    <button id="close_subject">X</button>
+                </div> -->
+            
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="grade_flex">
+        <div class="grade_print_pack">
+            <div class="submit_wrap">
+                <div class="submit">
+                    <button onclick="snitt()" type="submit">Regn Ut</button>
+                </div>
+            </div>
+            <div id="output">
+                <div class="grade_holder">Snittet er...</div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
